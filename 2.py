@@ -1,5 +1,5 @@
-sum1=0
-for i in range(1,10):
-    sum1+=i
+def f_to_c(f):
+    return (f-32)*5/9
 
-print(sum1)
+
+print(f_to_c(100))
